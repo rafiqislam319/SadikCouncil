@@ -1,0 +1,584 @@
+/* Home page */
+#hm_sbtitle{
+  color: #8E8E8E;
+}
+#btn_home{
+  box-shadow: -1px -1px 8px var(--primary-color);
+  
+ } 
+/* Home page consultation button */
+.request-consultation {
+  position: relative;
+  background: var(--primary-color);
+  border-radius: 7px;
+  font-size: 16px;
+}
+.request-consultation::after {
+  content: "";
+  position: absolute;
+  bottom: -15px; /* Adjust this value to control the arrow position */
+  left: 15%; /* Position the arrow in the middle horizontally */
+  transform: translateX(-50%) rotate(-45deg);
+  border-width: 15px 0 0 40px; /* Creates a triangle */
+  border-style: solid;
+  border-color: var(--primary-color) transparent transparent transparent;
+  box-shadow: 1px -1px 1px var(--primary-color);
+}
+.request-consultation:hover{
+  background: var(--primary-color);
+}
+#hero-area{
+  margin-bottom: 80px;
+}
+/* Home page consultation button ends */
+
+/* service page css */
+.service-vline {
+    border-left: 6px solid #585A5C;
+    height: 1700px;
+  }
+
+  #left-service .single-service{
+    position: relative;
+    
+  }
+  #left-service .single-service::after{
+    content: "";
+    position: absolute;
+    bottom: -12px; /* Adjust this value to control the arrow position */
+    left: 95%; /* Position the arrow in the middle horizontally */
+    transform: translateX(-56%) rotate(-157deg);
+    border-width: 50px 0 0 212px; /* Creates a triangle */
+    border-style: solid;
+    border-color: #E5E6E7 transparent transparent transparent;
+    z-index: -1;
+    
+  }
+
+  #left-service .single-service:hover{
+    position: relative;
+  }
+  .single-service{
+    box-shadow: 4px -6px 6px #eee;
+  }
+  
+
+  #left-service .single-service:hover::after{
+    content: "";
+    position: absolute;
+    bottom: -12px; /* Adjust this value to control the arrow position */
+    left: 95%; /* Position the arrow in the middle horizontally */
+    transform: translateX(-56%) rotate(-157deg);
+    border-width: 50px 0 0 212px; /* Creates a triangle */
+    border-style: solid;
+    /* border-color: var(--primary-color); */
+    border-color: var(--primary-color) transparent transparent transparent;
+    transition: var(--primary-transition);
+    
+  }
+
+
+  #right-service .single-service{
+    position: relative;
+  }
+  #right-service .single-service::after{
+    content: "";
+    position: absolute;
+    bottom: -31px; /* Adjust this value to control the arrow position */
+    right: 48%; /* Position the arrow in the middle horizontally */
+    transform: translateX(-54%) rotate(-36deg);
+    border-width: 45px 0 0 207px; /* Creates a triangle */
+    border-style: solid;
+    border-color: #E5E6E7 transparent transparent transparent;
+    z-index: -1;
+  }
+
+  #right-service .single-service:hover{
+    position: relative;
+  }
+
+  #right-service .single-service:hover::after{
+    content: "";
+    position: absolute;
+    bottom: -31px; /* Adjust this value to control the arrow position */
+    right: 48%; /* Position the arrow in the middle horizontally */
+    transform: translateX(-54%) rotate(-36deg);
+    border-width: 45px 0 0 207px; /* Creates a triangle */
+    border-style: solid;
+    /* border-color: var(--primary-color); */
+    border-color: var(--primary-color) transparent transparent transparent;
+    transition: var(--primary-transition);
+  }
+  .service_h_line{
+    border-bottom: 6px solid #585A5C;
+   width: 80px;
+   margin: auto;
+ }
+ #service-content-area{
+  margin-bottom: 60px;
+}
+#left-service .single-service{
+  margin-bottom: 70px;
+}
+#right-service .single-service{
+  margin-bottom: 70px;
+}
+  /* service page css ends */
+
+
+  /* team page css */
+  .team-vline {
+    border-left: 6px solid #585A5C;
+    height: 550px;
+  }
+  
+
+  #team-left .single-member{
+    position: relative;
+  }
+  #team-left .single-member::after{
+    content: "";
+    position: absolute;
+    bottom: -14px; /* Adjust this value to control the arrow position */
+    left: 98%; /* Position the arrow in the middle horizontally */
+    transform: translateX(-50%) rotate(-164deg);
+    border-width: 45px 0 0 129px; /* Creates a triangle */
+    border-style: solid;
+    border-color: #E5E6E7 transparent transparent transparent;
+  }
+
+  #team-left .single-member:hover{
+    position: relative;
+  }
+  .team_h_line{
+     border-bottom: 6px solid #585A5C;
+    width: 80px;
+    margin: auto;
+  }
+
+  #team-left .single-member:hover::after{
+    content: "";
+    position: absolute;
+    bottom: -14px; /* Adjust this value to control the arrow position */
+    left: 98%; /* Position the arrow in the middle horizontally */
+    transform: translateX(-50%) rotate(-164deg);
+    border-width: 45px 0 0 129px; /* Creates a triangle */
+    border-style: solid;
+    /* border-color: var(--primary-color); */
+    border-color: var(--primary-color) transparent transparent transparent;
+    transition: var(--primary-transition);
+  }
+
+
+  #team-right .single-member{
+    position: relative;
+  }
+  #team-right .single-member::after{
+    content: "";
+    position: absolute;
+    bottom: -37px; /* Adjust this value to control the arrow position */
+    right: 68%; /* Position the arrow in the middle horizontally */
+    transform: translateX(-50%) rotate(-31deg);
+    border-width: 45px 0 0 139px; /* Creates a triangle */
+    border-style: solid;
+    border-color: #E5E6E7 transparent transparent transparent;
+    z-index: -1;
+  }
+  #team-right .single-member:hover{
+    position: relative;
+  }
+
+  #team-right .single-member:hover::after{
+    content: "";
+    position: absolute;
+    bottom: -37px; /* Adjust this value to control the arrow position */
+    right: 68%; /* Position the arrow in the middle horizontally */
+    transform: translateX(-50%) rotate(-31deg);
+    border-width: 45px 0 0 139px; /* Creates a triangle */
+    border-style: solid;
+    /* border-color: var(--primary-color); */
+    border-color: var(--primary-color) transparent transparent transparent;
+    transition: var(--primary-transition);
+  }
+  #team-content-area{
+    margin-bottom: 60px;
+  }
+  .single-member{
+    box-shadow: 4px -6px 6px #eee;
+    margin-bottom: 70px;
+  }
+  /* team page css ends */
+
+
+/* about page css */
+  .about_vline{
+    border-left: 5px solid #585A5C;
+     height: 30px;
+     margin: 0 auto;
+     width: 2px;
+ }
+ .about_hline{
+  border-bottom: 6px solid #585A5C;
+    width: 80px;
+    margin: auto;
+  
+}
+ /* about page css ends */
+
+ 
+ /* nav menu css */
+ .nav-item:hover {
+  border: 2px solid var(--primary-color);
+  background: #fff;
+  position: relative;
+  color: var(--primary-color) transparent;
+}
+li.nav-item {
+  border: 2px solid transparent;
+}
+.nav-item .nav-link {
+  padding: 10px;
+}
+/* to make menu item no shake */
+li.nav-item.navbar-brand {
+  border: transparent;
+}
+/* to make Home item no border */
+#home-li{
+  border: none;
+}
+#home-li:hover::before{
+  border: none;
+}
+.nav-item:hover::before {
+  position: absolute;
+  content: "";
+  border: 12px solid;
+  border-color: var(--primary-color) var(--primary-color) transparent transparent;
+  left: auto;
+  right: 36px;
+  bottom: -25px;
+}
+.nav-item:hover::after {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: 38px;
+  bottom: -20px;
+  border: 12px solid;
+  border-color: #fff #fff transparent transparent;
+  
+}
+ /* nav menu css ends */
+
+ #main-menu-area{
+  padding-bottom: 50px;
+ }
+ #footer-area{
+  margin-top: 100px;
+ }
+
+ #blogs-section{
+  margin-bottom: 50px;
+  margin-top: 100px;
+ }
+
+ /* Home page footer */
+ .footer-bg{
+  background-color: #fff !important;
+ }
+ #footer-bottom{
+  border-bottom: 22px solid #D2D2D2;
+  width: 100%;
+  border-radius: 0px 0px 11px 11px;
+
+  
+ }
+
+
+
+/* Media query */
+/* for service page */
+ @media only screen and (min-width: 991px) {
+
+  .service-vline {
+    height: 1550px;
+  }
+  #left-service .single-service::after{
+
+    bottom: -16px;
+    left: 96%;
+    border-width: 50px 0 0 212px;
+  }
+  #left-service .single-service:hover::after{
+
+    bottom: -16px;
+    left: 96%;
+    
+  }
+  #right-service .single-service::after{
+    bottom: -34px;
+    right: 284px; 
+    border-width: 45px 0 0 207px;
+  }
+  .service_h_line{
+   margin-right: 660px;
+ }
+
+#right-service .single-service:hover::after{
+  bottom: -34px; 
+  right: 284px;
+  border-width: 45px 0 0 207px;
+}
+
+
+/* for team page */
+.team-vline {
+  height: 600px;
+}
+
+#team-right .single-member::after{
+
+  bottom: -39px; 
+  right: 74%;
+
+}
+
+#team-right .single-member:hover::after{
+
+  bottom: -39px; 
+  right: 74%;
+  
+}
+#team-left .single-member::after{
+
+  bottom: -15px; 
+  left: 99%;
+}
+
+#team-left .single-member:hover::after{
+  bottom: -15px; 
+  left: 99%;
+}
+/* for team page ends*/
+
+/* for nav menu bar */
+.nav-item:hover::after {
+  /* color: aqua; */
+  /* right: 39px; */
+}
+.nav-item:hover::before {
+  border: 13px solid;
+  border-color: var(--primary-color) var(--primary-color) transparent transparent;
+}
+.nav-item:hover::before {
+  /* right: 35px;
+  bottom: -27px; */
+}
+body{
+  background-color: chartreuse;
+ }
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  
+  body{
+    background-color: pink;
+   }
+   #team-right .single-member::after{
+
+    bottom: -39px; 
+    right: 346px;
+  }
+  #team-right .single-member:hover::after{
+  
+    bottom: -39px; 
+    right: 346px;
+  }
+  .service-vline {
+    height: 1717px;
+  }
+  .service_h_line{
+    margin-right: 518px;
+  }
+  #right-service .single-service::after{
+    right: 247px;
+  }
+
+#right-service .single-service:hover::after{
+  right: 247px;
+}
+  
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  
+  body{
+    background-color: green;
+    
+   }
+   #team-right .single-member::after{
+    bottom: -38px; 
+    right: 257px;
+  }
+  #team-right .single-member:hover::after{
+  
+    bottom: -38px; 
+    right: 257px;
+  }
+  #right-service .single-service::after{
+    bottom: -24px;
+    right: 153px;
+  }
+
+#right-service .single-service:hover::after{
+  bottom: -24px;
+    right: 153px;
+}
+#left-service .single-service::after {
+  bottom: -5px;
+  left: 389px;
+}
+#left-service .single-service:hover::after{
+
+  bottom: -5px;
+  left: 389px;
+}
+.service-vline {
+  height: 1717px;
+}
+.service_h_line{
+  margin-right: 427px;
+}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  
+ body{
+  background-color: red;
+ }
+ #left-service .single-service::after {
+  bottom: -7px;
+  left: 270px;
+}
+#left-service .single-service:hover::after{
+
+  bottom: -7px;
+  left: 270px;
+}
+#right-service .single-service::after {
+  bottom: -26px;
+  right: 33px;
+}
+#right-service .single-service:hover::after{
+  bottom: -26px;
+    right: 33px;
+}
+#team-right .single-member::after {
+  bottom: -37px;
+  right: 135px;
+}
+#team-right .single-member:hover:after {
+  bottom: -37px;
+  right: 135px;
+}
+.team-vline {
+  height: 596px;
+}
+.service-vline {
+  height: 1580px;
+}
+#left-service .single-service h5 {
+  font-size: 1rem;
+}
+#left-service .single-service p {
+  font-size: 0.75rem;
+}
+#right-service .single-service h5 {
+  font-size: 1rem;
+}
+#right-service .single-service p {
+  font-size: 0.75rem;
+}
+.p-5 {
+  padding: 4rem!important;
+}
+.icon-bar {
+  top: 420px;
+}
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  
+  body{
+    background-color: yellow;
+   }
+   .team-vline {
+    height: 595px;
+}
+.service-vline {
+  height: 1600px;
+}
+#left-service .single-service h5 {
+  font-size: 1rem;
+}
+#left-service .single-service p {
+  font-size: 0.75rem;
+}
+#right-service .single-service h5 {
+  font-size: 1rem;
+}
+#right-service .single-service p {
+  font-size: 0.75rem;
+}
+#left-service .single-service::after {
+  bottom: -6px;
+  left: 270px;
+}
+#left-service .single-service:hover:after {
+  bottom: -6px;
+  left: 270px;
+}
+#right-service .single-service::after {
+  bottom: -26px;
+  right: 36px;
+}
+#right-service .single-service:hover:after {
+  bottom: -26px;
+  right: 36px;
+}
+#team-right .single-member::after {
+  bottom: -37px;
+  right: 137px;
+}
+#team-right .single-member:hover::after {
+  bottom: -37px;
+  right: 137px;
+}
+#team-left .single-member::after {
+  bottom: -14px;
+  left: 289px;
+}
+#team-left .single-member:hover::after {
+  bottom: -14px;
+  left: 289px;
+}
+ .main-navbar ul li a {
+  font-size: 13px;
+}
+
+.nav-item .nav-link {
+  padding: 10px;
+} 
+
+}
+@media only screen and (min-width : 320px) and (max-width: 480px) {
+        body{
+
+          background-color: violet;
+        }
+}
+
+/* Media query Ends */
+
