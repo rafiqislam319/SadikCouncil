@@ -599,6 +599,18 @@ body{
 #right-service .single-service::after {
   display: none;
 }
+.single-member{
+  background: #E5E6E7;
+  border-radius: 1rem;
+  margin-bottom: 10px;
+  padding: 30px 15px;
+}
+body {
+  margin-top: 0px;
+}
+#footer-area {
+  margin-top: 0px;
+}
 }
 
 /* Media query Ends */
