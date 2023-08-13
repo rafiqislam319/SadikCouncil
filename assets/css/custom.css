@@ -616,7 +616,7 @@ body {
 }
 
 .blog-area .category-list {
-  width: 0px;
+  width: 90vw;
 }
 #blogs-section {
   margin-bottom: 50px;
