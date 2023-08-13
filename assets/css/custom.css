@@ -573,7 +573,7 @@ body{
 } 
 
 }
-@media only screen and (min-width : 320px) and (max-width: 480px) {
+@media only screen and (min-width : 320px) and (max-width: 575px) {
   .team-vline {
     display: none;
 }
@@ -611,6 +611,28 @@ body {
 #footer-area {
   margin-top: 0px;
 }
+}
+@media only screen and (min-width : 576px) and (max-width: 767px) {
+  #team-left .single-member::after {
+    bottom: -17px;
+    left: 200px;
+  }
+  #team-left .single-member:hover::after {
+    bottom: -17px;
+    left: 200px;
+  }
+  #team-right .single-member::after {
+    bottom: -40px;
+    right: 50px;
+}
+#team-right .single-member:hover::after {
+  bottom: -40px;
+  right: 50px;
+}
+.team-vline {
+  height: 690px;
+}
+
 }
 
 /* Media query Ends */
