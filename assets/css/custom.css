@@ -625,6 +625,14 @@ body {
 .mobile-menu li.nav-item {
   border-bottom: 1px solid gray;
 }
+
+#right-service .single-service {
+  margin-bottom: 0;
+}
+
+#right-service {
+  padding-top: 0;
+}
 }
 @media only screen and (min-width : 576px) and (max-width: 767px) {
   #team-left .single-member::after {
