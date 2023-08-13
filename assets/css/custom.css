@@ -611,6 +611,17 @@ body {
 #footer-area {
   margin-top: 0px;
 }
+#left-service .single-service {
+  margin-bottom: 0px;
+}
+
+.blog-area .category-list {
+  width: 0px;
+}
+#blogs-section {
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
 }
 @media only screen and (min-width : 576px) and (max-width: 767px) {
   #team-left .single-member::after {
@@ -631,6 +642,28 @@ body {
 }
 .team-vline {
   height: 690px;
+}
+#left-service .single-service {
+  margin-bottom: 0px;
+}
+#right-service .single-service {
+  margin-bottom: 0;
+}
+#left-service .single-service::after {
+  bottom: 15px;
+  left: 181px;
+}
+#left-service .single-service:hover::after {
+  bottom: 15px;
+  left: 181px;
+}
+#right-service .single-service::after {
+  bottom: -5px;
+  right: -57px;
+}
+#right-service .single-service:hover::after {
+  bottom: -5px;
+  right: -57px;
 }
 
 }
