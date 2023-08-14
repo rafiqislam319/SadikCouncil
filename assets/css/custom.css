@@ -642,6 +642,19 @@ body {
 .nav-item:hover::before {
   display: none;
 }
+.single-blog .img-area a figure img {
+  width: 527px;
+}
+#team-left .single-member {
+  margin-left: 20px;
+}
+#team-right .single-member {
+  margin-left: 20px;
+}
+#about-content{
+  margin-bottom: 3rem;
+
+}
 }
 @media only screen and (min-width : 576px) and (max-width: 767px) {
   #team-left .single-member::after {
@@ -691,3 +704,18 @@ body {
 /* Media query Ends */
 
 
+/* customization on home page statistics section down arrow  */
+statics-bg-arrow{
+  position: relative;
+}
+.statics-bg-arrow::after {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  bottom: 0px;
+  left: 15%;
+  transform: translateX(-40%) rotate(-35deg);
+  border-width: 197px 0 0 454px;
+  border-style: solid;
+  border-color: #ECEDED transparent transparent transparent;
+}
