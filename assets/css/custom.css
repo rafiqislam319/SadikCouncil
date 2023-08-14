@@ -323,9 +323,9 @@ li.nav-item.navbar-brand {
     right: 284px; 
     border-width: 45px 0 0 207px;
   }
-  .service_h_line{
+  /* .service_h_line{
    margin-right: 660px;
- }
+ } */
 
 #right-service .single-service:hover::after{
   bottom: -34px; 
@@ -401,9 +401,9 @@ body{
   .service-vline {
     height: 1717px;
   }
-  .service_h_line{
+  /* .service_h_line{
     margin-right: 518px;
-  }
+  } */
   #right-service .single-service::after{
     right: 247px;
   }
@@ -449,9 +449,9 @@ body{
 .service-vline {
   height: 1717px;
 }
-.service_h_line{
+/* .service_h_line{
   margin-right: 427px;
-}
+} */
 }
 
 @media only screen and (min-width: 769px) and (max-width: 991px) {
