@@ -655,6 +655,13 @@ body {
   margin-bottom: 3rem;
 
 }
+
+.carousel-control-prev-icon {
+  border-radius: 50%;
+}
+.carousel-control-next-icon {
+  border-radius: 50%;
+}
 }
 @media only screen and (min-width : 576px) and (max-width: 767px) {
   #team-left .single-member::after {
